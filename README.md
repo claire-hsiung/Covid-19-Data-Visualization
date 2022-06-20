@@ -7,7 +7,7 @@ An exploratory project using data from the City of Toronto's Open Data resource 
 * Exploratory Analysis
 * Data Visualization
 
-##Tools: 
+## Tools: 
 * R (tidyverse, dplyr)
 
 
