@@ -1,4 +1,4 @@
-# Toronto Covid-19 Data Visualization
+# Covid-19 Data Visualization - Neighbourhoods in Toronto
 Project adapted from the course Methods of Data Analysis II (STA303) at the University of Toronto. 
 
 ## Project Description
