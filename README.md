@@ -11,11 +11,13 @@ An exploratory analysis project using data from the City of Toronto's Open Data 
 * R (tidyverse, dplyr)
 
 ## Visualizations
-![Cases reported by day ](https://user-images.githubusercontent.com/81878690/175079328-be6876d5-8b74-455a-a4d3-269a1db5049b.png)
-![Cases by outbreak type](https://user-images.githubusercontent.com/81878690/175077330-b60dd315-ef32-4399-a54e-4b86b46025bf.png)
-![Percentage low income](https://user-images.githubusercontent.com/81878690/175077383-67eca7f6-75aa-4988-9b14-7ec2b4593078.png)
-![Covid-19 cases per 100,000](https://user-images.githubusercontent.com/81878690/175077364-398e830c-cf58-436f-a257-48fc23e385b4.png)
-![cases by neighbourhood](https://user-images.githubusercontent.com/81878690/175079252-49e0bdb5-5eb7-4a87-8e85-9fb50a0b7369.png)
+![Reported cases](https://user-images.githubusercontent.com/81878690/175114888-057ff695-b843-4e98-8e27-fac922134501.png)
+![Cases by outbreak type](https://user-images.githubusercontent.com/81878690/175114878-be69d29e-8e8f-45ac-bffd-f1c2802c97c3.png)
+![Percentage of low income](https://user-images.githubusercontent.com/81878690/175114886-0d06d1fc-42c5-4610-9b6e-a0e1f491a6f7.png)
+![Covid-19 cases per 100,000](https://user-images.githubusercontent.com/81878690/175114882-e06bd599-c37f-408f-bb49-244a376fe541.png)
+![mapped by low income](https://user-images.githubusercontent.com/81878690/175114885-30b5a5fc-83bb-46cd-890a-3aac5e788c31.png)
+
+
 
 ### Data Source 
 The data used has been obtaine from the City of Toronto's Open Data resource
