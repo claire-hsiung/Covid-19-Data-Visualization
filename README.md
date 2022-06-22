@@ -11,5 +11,6 @@ An exploratory analysis project using data from the City of Toronto's Open Data 
 * R (tidyverse, dplyr)
 
 ## Visualizations
+https://github.com/claire-hsiung/Covid-19-Data-Visualization/blob/master/Visualizations/Cases%20by%20neighbourhood.png?raw=true
 
 
