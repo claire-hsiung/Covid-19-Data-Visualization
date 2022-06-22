@@ -245,26 +245,28 @@ nbhoods_all<- nbhoods_shape_raw %>% mutate(AREA_NAME = str_replace_all(AREA_NAME
   full_join(income, by = "neighbourhood_name") %>% 
   full_join(nbhood_rawcleaned, by = "neighbourhood_name") %>%
   rename(rate_per_100000 = rate_per_100_000_people) %>% drop_na(X_id)
-##ind out why the names are matching in neighbourhood names - currently creating duplicates 
+  
+##cleaning names between 3 data sets to join them 
 problems <- nbhoods_all %>%
   filter(is.na(neighbourhood_id))
 
 #updating problematic rows in income using information in problems
 income <- income[-1,]
-nbhoods_shape_raw <- nbhoods_shape_raw %>% 
-  mutate(AREA_NAME = str_replace(AREA_NAME, "Cabbagetown-South St.James Town", 
-                                 "Cabbagetown-South St. James Town")) %>%  
-  mutate(AREA_NAME = str_replace(AREA_NAME, "North St.James Town", 
-                                 "North St. James Town")) %>% 
-  mutate(AREA_NAME = str_replace(AREA_NAME, "Weston-Pellam Park", 
-                                 "Weston-Pelham Park")) 
+#additional cleaning if needed
+#nbhoods_shape_raw <- nbhoods_shape_raw %>% 
+  #mutate(AREA_NAME = str_replace(AREA_NAME, "Cabbagetown-South St.James Town", 
+                                 #"Cabbagetown-South St. James Town")) %>%  
+  #mutate(AREA_NAME = str_replace(AREA_NAME, "North St.James Town", 
+                                 #"North St. James Town")) %>% 
+  #mutate(AREA_NAME = str_replace(AREA_NAME, "Weston-Pellam Park", 
+                                 #"Weston-Pelham Park")) 
 
-nbhoods_all <- nbhoods_shape_raw %>% 
-  mutate(neighbourhood_name = str_remove(AREA_NAME, "\\s\\(\\d+\\)")) %>%
-  full_join(income, by = "neighbourhood_name") %>% 
-  full_join(nbhood_rawcleaned, by = "neighbourhood_name") %>%
-  rename(rate_per_100000 = rate_per_100_000_people)%>%
-  drop_na(AREA_SHORT_CODE)
+#nbhoods_all <- nbhoods_shape_raw %>% 
+  #mutate(neighbourhood_name = str_remove(AREA_NAME, "\\s\\(\\d+\\)")) %>%
+  #full_join(income, by = "neighbourhood_name") %>% 
+  #full_join(nbhood_rawcleaned, by = "neighbourhood_name") %>%
+  #rename(rate_per_100000 = rate_per_100_000_people)%>%
+  #drop_na(AREA_SHORT_CODE)
 
 
 
