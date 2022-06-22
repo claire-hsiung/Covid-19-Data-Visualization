@@ -1,6 +1,8 @@
 # Covid-19 Data Visualization - Neighbourhoods in Toronto
 Project adapted from the course Methods of Data Analysis II (STA303/1002) at the University of Toronto. 
 
+Updated as of June 22, 2022
+
 ## Project Description
 An exploratory analysis project using data from the City of Toronto's Open Data resource to visualize Covid-19 within the neighbourhoods of Toronto. Skills utilized in this project: 
 * Data Cleaning and Wrangling
@@ -18,6 +20,9 @@ An exploratory analysis project using data from the City of Toronto's Open Data 
 ![mapped by low income](https://user-images.githubusercontent.com/81878690/175114885-30b5a5fc-83bb-46cd-890a-3aac5e788c31.png)
 
 
+## Special Notes
+* As of June 14, 2022 - Ontario has begun weekly reporting as opposed to daily reporting
+* Ontario has also reduced testing, impacting the numbers shown on this project
 
 ### Data Source 
 The data used has been obtaine from the City of Toronto's Open Data resource
