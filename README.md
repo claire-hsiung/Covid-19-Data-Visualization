@@ -25,6 +25,6 @@ An exploratory analysis project using data from the City of Toronto's Open Data 
 * Ontario has also reduced testing, impacting the numbers shown on this project
 
 ### Data Source 
-The data used has been obtaine from the City of Toronto's Open Data resource
+The data used has been obtained from the City of Toronto's Open Data resource
 
 
